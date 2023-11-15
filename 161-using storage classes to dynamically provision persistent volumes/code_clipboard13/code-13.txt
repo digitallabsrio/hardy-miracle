@@ -1,0 +1,12 @@
+{
+  "Volumes": [
+    {
+      "AvailabilityZone": "us-east-2c",
+      ...
+      "VolumeType": "gp2",
+      "VolumeId": "vol-0a4d5cfa4699e5c6f",
+      "State": "in-use",
+      ...
+    }
+  ]
+}

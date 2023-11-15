@@ -1,0 +1,2 @@
+kubectl --namespace default \
+    delete deployment db

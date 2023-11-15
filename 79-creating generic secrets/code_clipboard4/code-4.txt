@@ -1,0 +1,12 @@
+{
+    "apiVersion": "v1",
+    "data": {
+        "password": "aW5jb2duaXRv",
+        "username": "amRvZQ=="
+    },
+    "kind": "Secret",
+    "metadata": {
+        ...
+    },
+    "type": "Opaque"
+}

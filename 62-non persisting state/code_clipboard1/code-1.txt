@@ -1,0 +1,5 @@
+kubectl create \
+    -f jenkins.yml \
+    --record --save-config
+
+kubectl rollout status deploy jenkins

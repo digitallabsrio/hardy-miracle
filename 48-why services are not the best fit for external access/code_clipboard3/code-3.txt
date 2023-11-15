@@ -1,0 +1,5 @@
+NAME                           READY STATUS  RESTARTS AGE
+go-demo-2-api-68df567fb5-8qcmv 1/1   Running 0        3m
+go-demo-2-api-68df567fb5-k55d4 1/1   Running 0        3m
+go-demo-2-api-68df567fb5-ws9cj 1/1   Running 0        3m
+go-demo-2-db-dd48b7dfc-hdxbz   1/1   Running 0        3m

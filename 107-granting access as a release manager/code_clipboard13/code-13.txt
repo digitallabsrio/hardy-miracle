@@ -1,0 +1,8 @@
+kubectl config set-context jdoe \
+    --cluster jdoe \
+    --user jdoe \
+    --namespace jdoe
+
+kubectl config use-context jdoe
+
+kubectl create deployment db --image mongo:3.3

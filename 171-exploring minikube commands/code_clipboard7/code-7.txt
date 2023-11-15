@@ -1,0 +1,2 @@
+NAME     STATUS ROLES  AGE VERSION
+minikube Ready  master 31m v1.14.0

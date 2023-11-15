@@ -1,0 +1,42 @@
+...
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-demo-2-db
+spec:
+  ...
+  template:
+    ...
+    spec:
+      containers:
+      - name: db
+        image: mongo:3.3
+        resources:
+          limits:
+            memory: 200Mi
+            cpu: 0.5
+          requests:
+            memory: 100Mi
+            cpu: 0.3
+...
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-demo-2-api
+spec:
+  ...
+  template:
+    ...
+    spec:
+      containers:
+      - name: api
+        image: vfarcic/go-demo-2
+        ...
+        resources:
+          limits:
+            memory: 100Mi
+            cpu: 200m
+          requests:
+            memory: 50Mi
+            cpu: 100m
+...

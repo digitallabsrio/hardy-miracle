@@ -1,0 +1,4 @@
+openssl req -new \
+    -key keys/jdoe.key \
+    -out keys/jdoe.csr \
+    -subj "/CN=jdoe/O=devs"

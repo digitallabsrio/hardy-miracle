@@ -1,0 +1,5 @@
+kubectl apply \
+    -f go-demo-2-insuf-mem.yml \
+    --record
+
+kubectl get pods

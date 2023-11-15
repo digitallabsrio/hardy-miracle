@@ -1,0 +1,4 @@
+namespace "jenkins" configured
+ingress "jenkins" configured
+service "jenkins" configured
+deployment "jenkins" configured

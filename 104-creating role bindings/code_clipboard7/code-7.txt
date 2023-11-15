@@ -1,0 +1,20 @@
+kubectl create rolebinding jdoe \
+    --clusterrole view \
+    --user jdoe \
+    --namespace default \
+    --save-config
+
+kubectl get rolebindings
+
+kubectl describe rolebinding jdoe
+
+kubectl --namespace kube-system \
+    describe rolebinding jdoe
+
+kubectl auth can-i get pods \
+    --as jdoe
+
+kubectl auth can-i get pods \
+    --as jdoe --all-namespaces
+
+kubectl delete rolebinding jdoe

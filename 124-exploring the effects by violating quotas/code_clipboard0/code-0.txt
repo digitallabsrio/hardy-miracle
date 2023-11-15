@@ -1,0 +1,5 @@
+kubectl create ns dev
+
+kubectl create \
+    -f dev.yml \
+    --record --save-config

@@ -1,0 +1,2 @@
+kubectl create \
+    -f different-app-db.yml

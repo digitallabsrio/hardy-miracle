@@ -1,0 +1,5 @@
+#Run the folloiwng commands one by one
+minikube ssh
+sudo mkdir /files
+sudo mv /prometheus-conf.yml  /files/
+exit

@@ -1,0 +1,5 @@
+ITEM    PROPERTY          OLD    NEW
+Cluster KubernetesVersion v1.9.2 v1.14
+...
+Updates applied to configuration.
+You can now apply these changes, using `kops update cluster devops23.k8s.local`

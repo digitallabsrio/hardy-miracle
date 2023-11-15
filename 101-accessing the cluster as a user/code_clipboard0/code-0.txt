@@ -1,0 +1,4 @@
+kubectl config set-cluster jdoe \
+    --certificate-authority \
+    /usercode/certs/keys/server-ca.crt \
+    --server $SERVER

@@ -1,0 +1,1 @@
+export NAME=devops23.k8s.local

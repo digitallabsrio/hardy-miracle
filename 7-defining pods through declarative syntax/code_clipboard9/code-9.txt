@@ -1,0 +1,9 @@
+...
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  4m28s  default-scheduler  Successfully assigned default/db to k3d-mycluster-server-0
+  Normal  Pulling    4m28s  kubelet            Pulling image "mongo:3.3"
+  Normal  Pulled     3m15s  kubelet            Successfully pulled image "mongo:3.3" in 1m13.409798522s
+  Normal  Created    3m11s  kubelet            Created container db
+  Normal  Started    3m11s  kubelet            Started container db

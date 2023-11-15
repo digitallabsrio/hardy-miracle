@@ -1,0 +1,2 @@
+kubectl create -f rb-dev.yml \
+    --record --save-config

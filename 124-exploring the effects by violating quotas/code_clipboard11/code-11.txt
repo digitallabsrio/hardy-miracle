@@ -1,0 +1,12 @@
+...
+Resource Quotas
+ Name:               dev
+ Resource            Used   Hard
+ --------            ---    ---
+ limits.cpu          1      1
+ limits.memory       190Mi  1Gi
+ pods                10     10
+ requests.cpu        100m   800m
+ requests.memory     95Mi   500Mi
+ services.nodeports  0      0
+...

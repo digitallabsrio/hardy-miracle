@@ -1,0 +1,7 @@
+kubectl set image -f go-demo-2-db.yml db=mongo:3.4 
+    
+kubectl describe -f go-demo-2-db.yml
+
+kubectl get all
+
+kubectl create -f go-demo-2-db-svc.yml 

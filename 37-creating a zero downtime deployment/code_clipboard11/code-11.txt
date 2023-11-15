@@ -1,0 +1,13 @@
+kubectl create -f go-demo-2-api.yml --record
+
+kubectl get -f go-demo-2-api.yml
+
+kubectl set image -f go-demo-2-api.yml api=vfarcic/go-demo-2:2.0 --record
+
+kubectl rollout status -w -f go-demo-2-api.yml
+
+kubectl describe -f go-demo-2-api.yml
+
+kubectl rollout history -f go-demo-2-api.yml
+
+kubectl get rs

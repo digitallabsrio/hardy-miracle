@@ -1,0 +1,3 @@
+POD_NAME=$(kubectl get pods -o name \
+   | tail -1)
+kubectl delete $POD_NAME

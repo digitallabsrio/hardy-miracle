@@ -1,0 +1,7 @@
+NAME              STATUS      NEEDUPDATE READY MIN MAX NODES
+master-us-east-2a NeedsUpdate 1          0     1   1   1
+master-us-east-2b NeedsUpdate 1          0     1   1   1
+master-us-east-2c NeedsUpdate 1          0     1   1   1
+nodes             NeedsUpdate 2          0     2   2   2
+
+Must specify --yes to rolling-update.

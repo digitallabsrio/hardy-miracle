@@ -1,0 +1,3 @@
+NAME                TYPE                                DATA AGE
+default-token-n6fs4 kubernetes.io/service-account-token 3    33m
+my-creds            Opaque                              2    6s

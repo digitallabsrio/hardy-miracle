@@ -1,0 +1,3 @@
+kubectl apply -f jenkins.yml
+
+kubectl rollout status deploy jenkins

@@ -1,0 +1,7 @@
+# Get the port for minikube cluster 
+kubectl config view \
+    -o jsonpath='{.clusters[?(@.name=="minikube")].cluster.server}'
+    
+# Get the certificates for minikube cluster
+kubectl config view \
+    -o jsonpath='{.clusters[?(@.name=="minikube")].cluster.certificate-authority}'

@@ -1,0 +1,17 @@
+kubectl delete ns testing
+
+kubectl -n testing get all
+
+kubectl get all
+
+nohup kubectl port-forward service/go-demo-2-api 3000:8080 --address 0.0.0.0 > /dev/null 2>&1 &
+
+# Please wait fpr a few second before running the following command:
+curl -H "Host: go-demo-2.com" "http://0.0.0.0:3000/demo/hello"
+
+kubectl set image \
+    deployment/go-demo-2-api \
+    api=vfarcic/go-demo-2:2.0 \
+    --record
+
+k3d cluster delete mycluster --all

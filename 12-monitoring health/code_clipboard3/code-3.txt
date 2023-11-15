@@ -1,0 +1,17 @@
+Events:
+  Type     Reason     Age                From               Message
+  ----     ------     ----               ----               -------
+  Normal   Scheduled  70s                default-scheduler  Successfully assigned default/go-demo-2 to k3d-mycluster-server-0
+  Normal   Pulling    69s                kubelet            Pulling image "mongo:3.3"
+  Normal   Pulled     41s                kubelet            Successfully pulled image "mongo:3.3" in 28.738663826s
+  Normal   Created    39s                kubelet            Created container db
+  Normal   Started    39s                kubelet            Started container db
+  Normal   Pulled     36s                kubelet            Successfully pulled image "vfarcic/go-demo-2" in 2.975792483s
+  Normal   Pulled     29s                kubelet            Successfully pulled image "vfarcic/go-demo-2" in 387.506265ms
+  Normal   Started    19s (x3 over 36s)  kubelet            Started container api
+  Normal   Pulled     19s                kubelet            Successfully pulled image "vfarcic/go-demo-2" in 375.450308ms
+  Warning  Unhealthy  10s (x3 over 30s)  kubelet            Liveness probe failed: HTTP probe failed with statuscode: 404
+  Normal   Killing    10s (x3 over 30s)  kubelet            Container api failed liveness probe, will be restarted
+  Normal   Pulling    10s (x4 over 39s)  kubelet            Pulling image "vfarcic/go-demo-2"
+  Normal   Pulled     9s                 kubelet            Successfully pulled image "vfarcic/go-demo-2" in 375.064683ms
+  Normal   Created    9s (x4 over 36s)   kubelet            Created container api

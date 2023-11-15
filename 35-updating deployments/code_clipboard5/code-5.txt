@@ -1,0 +1,1 @@
+kubectl edit -f go-demo-2-db.yml

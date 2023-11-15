@@ -1,0 +1,2 @@
+kubectl create -f go-demo-2.yml
+kubectl get -f go-demo-2.yml

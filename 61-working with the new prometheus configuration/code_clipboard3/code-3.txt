@@ -1,0 +1,8 @@
+cat volume/prometheus-host-path.yml \
+    | sed -e \
+    "s/192.168.99.100/$(minikube ip)/g" \
+    | kubectl apply -f -
+
+kubectl rollout status deploy prometheus
+
+open "http://$(minikube ip)/prometheus/targets"

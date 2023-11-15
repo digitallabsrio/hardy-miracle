@@ -1,0 +1,1 @@
+cp /usercode/certs/server-ca.crt /usercode/certs/keys

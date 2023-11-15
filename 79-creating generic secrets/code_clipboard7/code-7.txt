@@ -1,0 +1,16 @@
+kubectl create secret \
+    generic my-creds \
+    --from-literal=username=jdoe \
+    --from-literal=password=incognito
+
+kubectl get secrets
+
+kubectl get secret my-creds -o json
+
+kubectl get secret my-creds \
+    -o jsonpath="{.data.username}" \
+    | base64 --decode
+
+kubectl get secret my-creds \
+    -o jsonpath="{.data.password}" \
+    | base64 --decode

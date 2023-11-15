@@ -1,0 +1,9 @@
+{
+    "Group": {
+        "Path": "/",
+        "CreateDate": "2018-02-21T12:58:47.853Z",
+        "GroupId": "AGPAIF2Y6HJF7YFYQBQK2",
+        "Arn": "arn:aws:iam::036548781187:group/kops",
+        "GroupName": "kops"
+    }
+}

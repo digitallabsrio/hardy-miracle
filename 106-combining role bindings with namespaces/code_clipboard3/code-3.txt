@@ -1,0 +1,5 @@
+kubectl --namespace dev auth can-i \
+    create deployments --as jdoe
+
+kubectl --namespace dev auth can-i \
+    delete deployments --as jdoe

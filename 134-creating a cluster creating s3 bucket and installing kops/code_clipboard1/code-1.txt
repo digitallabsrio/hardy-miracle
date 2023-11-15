@@ -1,0 +1,6 @@
+export BUCKET_NAME=devops23-$(date +%s)
+
+aws s3api create-bucket \
+    --bucket $BUCKET_NAME \
+    --create-bucket-configuration \
+    LocationConstraint=$AWS_DEFAULT_REGION

@@ -1,0 +1,27 @@
+Name:         my-config
+Namespace:    default
+Labels:       <none>
+Annotations:  <none>
+
+Data
+====
+alpine-env-all.yml:
+----
+...
+alpine-env.yml:
+----
+...
+alpine.yml:
+----
+...
+my-env-file.yml:
+----
+...
+prometheus-conf.yml:
+----
+...
+prometheus.yml:
+----
+...
+
+Events:  <none>

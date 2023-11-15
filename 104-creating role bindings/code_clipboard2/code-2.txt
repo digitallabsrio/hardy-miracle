@@ -1,0 +1,10 @@
+Name:         jdoe
+Labels:       <none>
+Annotations:  <none>
+Role:
+  Kind:  ClusterRole
+  Name:  view
+Subjects:
+  Kind  Name  Namespace
+  ----  ----  ---------
+  User  jdoe  

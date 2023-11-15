@@ -1,0 +1,5 @@
+cd ~/k8s-specs
+
+kubectl create \
+    -f aws/go-demo-2.yml \
+    --record --save-config

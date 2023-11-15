@@ -1,0 +1,4 @@
+kubectl create cm my-config \
+    --from-env-file=my-env-file.yml
+
+kubectl get cm my-config -o yaml

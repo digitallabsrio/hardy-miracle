@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus
+spec:
+  selector:
+    ...
+    spec:
+      containers:
+        ...
+        volumeMounts:
+        - mountPath: /etc/prometheus/prometheus.yml
+          name: prom-conf
+      volumes:
+      - name: prom-conf
+        hostPath:
+          path: /files/prometheus-conf.yml
+          type: File
+...

@@ -1,0 +1,4 @@
+kubectl port-forward service/go-demo-2-api 3000:8080 --address 0.0.0.0 
+#Now open a new terminal and run the following command 
+curl -i "0.0.0.0:3000/demo/hello"
+#close the new terminal after running and observing the output of curl 

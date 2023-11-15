@@ -1,0 +1,4 @@
+NAME             DESIRED  UP-TO-DATE AVAILABLE AGE LABELS
+different-app-db 1        1          1         1h  service=different-app,type=db,vendor=MongoLabs
+go-demo-2-api    3        3          3         1h  language=go,service=go-demo-2,type=api
+go-demo-2-db     1        1          1         1h  service=go-demo-2,type=db,vendor=MongoLabs

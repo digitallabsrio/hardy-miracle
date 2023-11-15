@@ -1,0 +1,4 @@
+NAME                       DESIRED   CURRENT   READY   AGE
+go-demo-2-db-6b48fcbfcf    1         1         1       4m12s
+go-demo-2-api-559d6888df   3         3         3       2m5s
+...

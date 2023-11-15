@@ -1,0 +1,31 @@
+apiVersion: v1
+kind: Endpoints
+metadata:
+  annotations:
+    endpoints.kubernetes.io/last-change-trigger-time: "2022-07-22T07:29:03Z"
+  creationTimestamp: "2022-07-22T07:29:03Z"
+  name: go-demo-2
+  namespace: default
+  resourceVersion: "848"
+  uid: 24246fb5-cc9c-49a9-bf69-2d55218e4326
+subsets:
+- addresses:
+  - ip: 10.42.0.10
+    nodeName: k3d-mycluster-server-0
+    targetRef:
+      kind: Pod
+      name: go-demo-2-9gmps
+      namespace: default
+      resourceVersion: "808"
+      uid: 88065f5e-cc5f-42b9-bd08-1d6ffa5301ef
+  - ip: 10.42.0.9
+    nodeName: k3d-mycluster-server-0
+    targetRef:
+      kind: Pod
+      name: go-demo-2-5l86n
+      namespace: default
+      resourceVersion: "811"
+      uid: 556a3219-c0f7-4f87-82ed-0feb3c8b88a8
+  ports:
+  - port: 28017
+    protocol: TCP

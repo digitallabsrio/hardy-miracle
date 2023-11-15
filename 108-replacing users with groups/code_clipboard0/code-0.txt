@@ -1,0 +1,2 @@
+openssl req -in /usercode/certs/keys/jdoe.csr \
+    -noout -subject

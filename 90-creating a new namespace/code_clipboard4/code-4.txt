@@ -1,0 +1,12 @@
+...
+contexts:
+- context:
+    cluster: k3d-mycluster
+    user: admin@k3d-mycluster
+  name: k3d-mycluster
+- context:
+    cluster: mycluster
+    namespace: testing
+    user: admin@k3d-mycluster
+  name: testing
+...

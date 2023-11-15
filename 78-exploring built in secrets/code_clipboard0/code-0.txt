@@ -1,0 +1,5 @@
+kubectl create \
+    -f jenkins-unprotected.yml \
+    --record --save-config
+
+kubectl rollout status deploy jenkins

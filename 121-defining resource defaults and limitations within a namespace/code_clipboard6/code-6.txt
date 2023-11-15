@@ -1,0 +1,7 @@
+kubectl --namespace test create \
+    -f go-demo-2-no-res.yml \
+    --save-config --record
+
+kubectl --namespace test \
+    rollout status \
+    deployment go-demo-2-api

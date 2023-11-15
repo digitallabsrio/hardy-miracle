@@ -1,0 +1,17 @@
+Name:                     go-demo-2-svc
+Namespace:                default
+Labels:                   <none>
+Annotations:              <none>
+Selector:                 service=go-demo-2,type=backend
+Type:                     NodePort
+IP Family Policy:         SingleStack
+IP Families:              IPv4
+IP:                       10.43.126.144
+IPs:                      10.43.126.144
+Port:                     <unset>  28017/TCP
+TargetPort:               28017/TCP
+NodePort:                 <unset>  30754/TCP
+Endpoints:                10.42.0.7:28017,10.42.0.8:28017
+Session Affinity:         None
+External Traffic Policy:  Cluster
+Events:                   <none>

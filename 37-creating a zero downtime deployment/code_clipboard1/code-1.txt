@@ -1,0 +1,2 @@
+NAME          DESIRED  UP-TO-DATE AVAILABLE AGE
+go-demo-2-api 3             3          3         1m

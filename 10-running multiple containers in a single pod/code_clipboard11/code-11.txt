@@ -1,0 +1,13 @@
+kubectl create -f go-demo-2.yml
+
+kubectl get -f go-demo-2.yml
+
+kubectl get -f go-demo-2.yml -o json
+
+kubectl get -f go-demo-2.yml -o jsonpath="{.spec.containers[*].name}"
+
+kubectl exec -it -c db go-demo-2 -- ps aux
+
+kubectl logs go-demo-2 -c db
+
+kubectl delete -f go-demo-2.yml

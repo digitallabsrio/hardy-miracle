@@ -1,0 +1,7 @@
+kubectl create rolebinding jdoe \
+    --clusterrole view \
+    --user jdoe \
+    --namespace default \
+    --save-config
+
+kubectl get rolebindings

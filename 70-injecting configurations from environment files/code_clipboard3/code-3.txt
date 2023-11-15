@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  my-env-file.yml: |
+    something=else
+    weather=sunny
+kind: ConfigMap
+...

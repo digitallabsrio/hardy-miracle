@@ -1,0 +1,13 @@
+...
+Containers:
+  db:
+    ...
+    Last State:     Terminated
+      Reason:       OOMKilled
+      Exit Code:    137
+      ...
+Events:
+  Type    Reason  Age             From              Message
+  ----    ------  ----            ----              -------
+  ...
+  Warning  BackOff    12s (x7 over 82s)  kubelet            Back-off restarting failed container

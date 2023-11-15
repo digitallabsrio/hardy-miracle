@@ -1,0 +1,11 @@
+...
+kops has set your kubectl context to devops23.k8s.local
+
+Cluster is starting.  It should be ready in a few minutes.
+
+Suggestions:
+ * validate cluster: kops validate cluster
+ * list nodes: kubectl get nodes --show-labels
+ * ssh to the master: ssh -i ~/.ssh/id_rsa admin@api.devops23.k8s.local
+The admin user is specific to Debian. If not using Debian please use the appropriate user based on your OS.
+ * read about installing addons: https://github.com/kubernetes/kops/blob/master/docs/addons.md

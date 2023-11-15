@@ -1,0 +1,3 @@
+kubectl delete -f alpine.yml
+#Run the below command separately to the configMap
+kubectl delete cm my-config

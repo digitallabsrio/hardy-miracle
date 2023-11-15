@@ -1,0 +1,3 @@
+NAME            READY STATUS  RESTARTS AGE LABELS
+go-demo-2-5fd54 2/2   Running 0        6m  db=mongo,language=go,service=go-demo-2,type=backend
+go-demo-2-v59t5 2/2   Running 0        6m  db=mongo,language=go,service=go-demo-2,type=backend

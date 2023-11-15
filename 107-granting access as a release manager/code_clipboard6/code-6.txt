@@ -1,0 +1,2 @@
+kubectl --namespace default auth \
+    can-i "*" pods --as jdoe

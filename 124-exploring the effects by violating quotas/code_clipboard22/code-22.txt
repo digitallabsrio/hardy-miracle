@@ -1,0 +1,5 @@
+kubectl expose deployment go-demo-2-api \
+    --namespace dev \
+    --name go-demo-2-api \
+    --port 8080 \
+    --type NodePort

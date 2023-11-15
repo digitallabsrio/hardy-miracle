@@ -1,0 +1,3 @@
+kubectl --namespace test create \
+    -f limit-range.yml \
+    --save-config --record

@@ -1,0 +1,5 @@
+NAME              READY STATUS    RESTARTS AGE
+go-demo-2-api-... 1/1   Running   0        1m
+go-demo-2-api-... 1/1   Running   0        1m
+go-demo-2-api-... 1/1   Running   0        1m
+go-demo-2-db-...  0/1   OOMKilled 2        17s

@@ -1,0 +1,4 @@
+kubectl create -f alpine.yml
+#Wait a few seconds before executing the following command
+kubectl exec -it alpine -- \
+    ls /etc/config

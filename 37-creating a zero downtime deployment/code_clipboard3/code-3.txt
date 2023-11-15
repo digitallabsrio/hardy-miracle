@@ -1,0 +1,1 @@
+kubectl rollout status -w -f go-demo-2-api.yml

@@ -1,0 +1,3 @@
+rancher/k3d-tools
+rancher/k3d-proxy
+rancher/k3s

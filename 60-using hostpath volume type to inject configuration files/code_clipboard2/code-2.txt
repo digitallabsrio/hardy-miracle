@@ -1,0 +1,2 @@
+kubectl create -f prometheus.yml
+kubectl rollout status deploy prometheus

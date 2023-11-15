@@ -1,0 +1,12 @@
+IMG=vfarcic/go-demo-2
+
+TAG=2.0
+
+DOM=go-demo-2.com
+
+cat go-demo-2.yml \
+    | sed -e \
+    "s@image: $IMG@image: $IMG:$TAG@g" \
+    | sed -e \
+    "s@host: $DOM@host: $TAG\.$DOM@g" \
+    | kubectl create -f -

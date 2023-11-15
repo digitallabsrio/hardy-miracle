@@ -1,0 +1,5 @@
+...
+Events:
+  Type    Reason           Age     From              Message
+  ----    ------           ----    ----              -------
+  Warning FailedScheduling 11s     default-scheduler 0/1 nodes are available: 1 Insufficient memory.

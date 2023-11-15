@@ -1,0 +1,8 @@
+kubectl top pods
+
+kubectl apply \
+    -f go-demo-2.yml \
+    --record
+
+kubectl rollout status \
+    deployment go-demo-2-api

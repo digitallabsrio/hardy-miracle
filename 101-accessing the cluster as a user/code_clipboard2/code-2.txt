@@ -1,0 +1,5 @@
+kubectl config set-context jdoe \
+    --cluster jdoe \
+    --user jdoe
+
+kubectl config use-context jdoe

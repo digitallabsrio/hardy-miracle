@@ -1,0 +1,11 @@
+clientVersion:
+  buildDate: "2019-04-08T17:11:31Z"
+  compiler: gc
+  gitCommit: b7394102d6ef778017f2ca4046abbaa23b88c290
+  gitTreeState: clean
+  gitVersion: v1.9.0
+  goVersion: go1.9.2
+  major: "1"
+  minor: "9"
+  platform: darwin/amd64
+The connection to the server localhost:8080 was refused - did you specify the right host or port?

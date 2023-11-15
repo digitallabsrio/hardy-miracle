@@ -1,0 +1,4 @@
+Kubernetes master is running at https://api-devops23-k8s-local-ivnbim-609446190.us-east-2.elb.amazonaws.com
+KubeDNS is running at https://api-devops23-k8s-local-ivnbim-609446190.us-east-2.elb.amazonaws.com/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+
+To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.

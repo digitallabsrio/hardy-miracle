@@ -1,0 +1,9 @@
+kubectl create -f different-app-db.yml
+
+kubectl get deployments --show-labels
+
+kubectl get deployments -l type=db,vendor=MongoLabs
+
+kubectl set image deployments -l type=db,vendor=MongoLabs db=mongo:3.4 --record
+
+kubectl describe -f go-demo-2.yml

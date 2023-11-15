@@ -1,0 +1,10 @@
+kubectl get cm my-config -o yaml
+
+kubectl create -f prometheus.yml
+
+kubectl rollout status deploy prometheus
+
+# please wait for deployments to successfully roll out before running the 
+# following command:
+kubectl port-forward service/prometheus 3000:9090 --address 0.0.0.0 
+#click the link beside run button 

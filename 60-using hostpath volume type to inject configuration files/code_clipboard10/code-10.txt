@@ -1,0 +1,9 @@
+minikube ssh
+sudo mkdir /files
+sudo mv /prometheus-conf.yml  /files/
+minikube ssh sudo chmod +rw \
+    /files/prometheus-conf.yml
+
+minikube ssh cat \
+    /files/prometheus-conf.yml
+exit

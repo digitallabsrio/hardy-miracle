@@ -1,0 +1,2 @@
+kubectl create \
+    -f https://raw.githubusercontent.com/kubernetes/kops/master/addons/ingress-nginx/v1.6.0.yaml

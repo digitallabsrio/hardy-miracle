@@ -1,0 +1,5 @@
+I0225 23:03:03.993068       1 instancegroups.go:130] Draining the node: "ip-172-20-40-167...".
+node "ip-172-20-40-167..." cordoned
+node "ip-172-20-40-167..." cordoned
+WARNING: Deleting pods not managed by ReplicationController, ReplicaSet, Job, DaemonSet or StatefulSet: etcd-server-events-ip-172-20-40-167..., etcd-server-ip-172-20-40-167..., kube-apiserver-ip-172-20-40-167..., kube-controller-manager-ip-172-20-40-167..., kube-proxy-ip-172-20-40-167..., kube-scheduler-ip-172-20-40-167...
+node "ip-172-20-40-167..." drained

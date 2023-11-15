@@ -1,0 +1,3 @@
+kubectl apply \
+    -f pv/jenkins-pv.yml \
+    --record

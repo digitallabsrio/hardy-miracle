@@ -1,0 +1,4 @@
+kubectl create \
+    -f alpine-env-all.yml
+#Wait for a few seconds before executing the below command
+kubectl exec -it alpine-env -- env

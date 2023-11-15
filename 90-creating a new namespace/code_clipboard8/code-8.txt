@@ -1,0 +1,4 @@
+kubectl config set-context testing \
+    --namespace testing \
+    --cluster minikube \
+    --user minikube

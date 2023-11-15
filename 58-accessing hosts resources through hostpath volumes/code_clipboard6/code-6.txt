@@ -1,0 +1,9 @@
+kubectl run docker \
+    --image=docker:17.11  --restart=Never \
+    docker image ls
+
+kubectl get pods
+
+kubectl logs -f docker 
+
+kubectl delete pod docker

@@ -1,0 +1,5 @@
+kubectl run docker \
+    --image=docker:17.11  --restart=Never \
+    docker image ls
+
+kubectl get pods

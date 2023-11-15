@@ -1,0 +1,4 @@
+aws ec2 create-key-pair \
+    --key-name devops23 \
+    | jq -r '.KeyMaterial' \
+    >devops23.pem

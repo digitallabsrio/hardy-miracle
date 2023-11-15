@@ -1,0 +1,19 @@
+kubectl create \
+    -f jenkins-unprotected.yml \
+    --record --save-config
+
+kubectl rollout status deploy jenkins
+
+kubectl port-forward service/jenkins 3000:8080 --address 0.0.0.0 
+#Open the link beside the run button in the playground below
+
+kubectl get secrets
+
+kubectl describe pods
+
+POD_NAME=$(kubectl get pods \
+    -l service=jenkins,type=master \
+    -o jsonpath="{.items[*].metadata.name}")
+
+kubectl exec -it $POD_NAME -- ls \
+    /var/run/secrets/kubernetes.io/serviceaccount

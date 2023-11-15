@@ -1,0 +1,5 @@
+kubectl auth can-i get pods \
+    --as jdoe
+
+kubectl auth can-i get pods \
+    --as jdoe --all-namespaces

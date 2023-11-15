@@ -1,0 +1,4 @@
+namespace "jenkins" created
+ingress "jenkins" created
+service "jenkins" created
+deployment "jenkins" created

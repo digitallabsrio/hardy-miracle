@@ -1,0 +1,4 @@
+NAME          CAPACITY ACCESS MODES RECLAIM POLICY STATUS   CLAIM           STORAGECLASS REASON AGE
+manual-ebs-01 5Gi      RWO          Retain         Available jenkins/jenkins manual-ebs          10m
+manual-ebs-02 5Gi      RWO          Retain         Released  jenkins/jenkins manual-ebs          10m
+manual-ebs-03 5Gi      RWO          Retain         Available jenkins/jenkins manual-ebs          10m

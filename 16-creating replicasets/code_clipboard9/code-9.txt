@@ -1,0 +1,9 @@
+kubectl create -f go-demo-2.yml
+
+kubectl get rs
+
+kubectl get -f go-demo-2.yml
+
+kubectl describe -f go-demo-2.yml
+
+kubectl get pods --show-labels

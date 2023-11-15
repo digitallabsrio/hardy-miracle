@@ -1,0 +1,11 @@
+NAME                DESIRED UP-TO-DATE AVAILABLE AGE
+deploy/go-demo-2-db 1       1       1  1         15s
+
+NAME             TYPE      CLUSTER-IP EXTERNAL-IP PORT(S)   AGE
+svc/go-demo-2-db ClusterIP 10.0.0.125 <none>      27017/TCP 15s
+
+NAME                 DESIRED  UP-TO-DATE AVAILABLE AGE
+deploy/go-demo-2-api 3        3          3         15s
+
+NAME              TYPE     CLUSTER-IP EXTERNAL-IP PORT(S)        AGE
+svc/go-demo-2-api NodePort 10.0.0.57  <none>      8080:31586/TCP 15s

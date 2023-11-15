@@ -1,0 +1,2 @@
+kubectl create ns testing
+kubectl get ns

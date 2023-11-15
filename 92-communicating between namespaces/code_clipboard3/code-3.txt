@@ -1,0 +1,2 @@
+kubectl exec -it test \
+    -- apk add -U curl

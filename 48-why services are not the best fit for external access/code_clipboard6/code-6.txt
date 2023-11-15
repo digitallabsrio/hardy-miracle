@@ -1,0 +1,2 @@
+kubectl create -f devops-toolkit-dep.yml --record --save-config
+kubectl get -f devops-toolkit-dep.yml

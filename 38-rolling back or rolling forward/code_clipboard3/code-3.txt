@@ -1,0 +1,4 @@
+deployment.apps/go-demo-2-api 
+REVISION  CHANGE-CAUSE
+2         kubectl set image api=vfarcic/go-demo-2:2.0 --filename=go-demo-2-api.yml --record=true
+3         kubectl create --filename=go-demo-2-api.yml --record=true

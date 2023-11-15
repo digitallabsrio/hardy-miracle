@@ -1,0 +1,1 @@
+kubectl set image -f go-demo-2-api.yml api=vfarcic/go-demo-2:does-not-exist --record

@@ -1,0 +1,15 @@
+Name:              go-demo-2-db
+Namespace:         default
+Labels:            <none>
+Annotations:       <none>
+Selector:          service=go-demo-2,type=db
+Type:              ClusterIP
+IP Family Policy:  SingleStack
+IP Families:       IPv4
+IP:                10.43.164.13
+IPs:               10.43.164.13
+Port:              <unset>  27017/TCP
+TargetPort:        27017/TCP
+Endpoints:         10.42.0.9:27017
+Session Affinity:  None
+Events:            <none>

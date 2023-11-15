@@ -1,0 +1,5 @@
+namespace "jenkins" configured
+ingress "jenkins" configured
+service "jenkins" configured
+persistentvolumeclaim "jenkins" created
+deployment "jenkins" created

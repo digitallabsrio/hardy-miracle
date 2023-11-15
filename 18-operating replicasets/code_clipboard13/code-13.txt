@@ -1,0 +1,4 @@
+POD_NAME=$(kubectl get pods -o name \
+    | tail -1)
+kubectl label $POD_NAME service-
+kubectl describe $POD_NAME

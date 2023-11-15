@@ -1,0 +1,3 @@
+kubectl --namespace jenkins \
+    rollout status \
+    deployment jenkins

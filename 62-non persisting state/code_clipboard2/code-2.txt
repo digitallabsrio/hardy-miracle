@@ -1,0 +1,2 @@
+kubectl port-forward service/jenkins 3000:8080 --address 0.0.0.0
+# click the link besides run button

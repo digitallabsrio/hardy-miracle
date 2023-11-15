@@ -1,0 +1,13 @@
+...
+Containers:
+  db:
+    ...
+    Limits:
+      cpu:    100m
+      memory: 100Mi
+    Requests:
+      cpu:    10m
+      memory: 50Mi
+...
+QoS Class:       Burstable
+...

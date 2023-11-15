@@ -1,0 +1,4 @@
+kubectl set image \
+    deployment/go-demo-2-api \
+    api=vfarcic/go-demo-2:2.0 \
+    --record

@@ -1,0 +1,15 @@
+kubectl describe pod go-demo-2-db
+
+kubectl apply \
+    -f go-demo-2-qos.yml \
+    --record
+
+kubectl rollout status \
+    deployment go-demo-2-db
+
+kubectl describe pod go-demo-2-db
+
+kubectl describe pod go-demo-2-api
+
+kubectl delete \
+    -f go-demo-2-qos.yml

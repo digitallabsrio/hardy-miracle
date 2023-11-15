@@ -1,0 +1,2 @@
+kubectl --namespace kube-ingress \
+    get all

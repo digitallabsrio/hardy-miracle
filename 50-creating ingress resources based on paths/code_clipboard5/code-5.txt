@@ -1,0 +1,3 @@
+kubectl delete -f go-demo-2-ingress.yml
+
+kubectl delete -f go-demo-2-deploy.yml

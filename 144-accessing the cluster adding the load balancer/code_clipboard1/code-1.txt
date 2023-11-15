@@ -1,0 +1,11 @@
+namespace "kube-ingress" created
+serviceaccount "nginx-ingress-controller" created
+clusterrole "nginx-ingress-controller" created
+role "nginx-ingress-controller" created
+clusterrolebinding "nginx-ingress-controller" created
+rolebinding "nginx-ingress-controller" created
+service "nginx-default-backend" created
+deployment "nginx-default-backend" created
+configmap "ingress-nginx" created
+service "ingress-nginx" created
+deployment "ingress-nginx" created

@@ -1,0 +1,10 @@
+#wait a few seconds before executing the first command 
+kubectl apply -f go-demo-2-scaled.yml
+
+kubectl get -f go-demo-2-scaled.yml
+
+kubectl scale deployment go-demo-2-api --replicas 8 --record
+
+kubectl get -f go-demo-2.yml
+
+k3d cluster delete mycluster --all

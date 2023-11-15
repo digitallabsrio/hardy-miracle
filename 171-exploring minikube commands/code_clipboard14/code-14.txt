@@ -1,0 +1,20 @@
+clientVersion:
+  buildDate: "2019-04-08T17:11:31Z"
+  compiler: gc
+  gitCommit: ...
+  gitTreeState: clean
+  gitVersion: v1.14.1
+  goVersion: go1.12.1
+  major: "1"
+  minor: "14"
+  platform: darwin/amd64
+serverVersion:
+  buildDate: "2019-03-25T15:45:25Z"
+  compiler: gc
+  gitCommit: ...
+  gitTreeState: clean
+  gitVersion: v1.14.0
+  goVersion: go1.12.1
+  major: "1"
+  minor: "14"
+  platform: linux/amd64

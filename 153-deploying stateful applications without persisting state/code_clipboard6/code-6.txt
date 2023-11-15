@@ -1,0 +1,5 @@
+kubectl --namespace jenkins \
+    create secret \
+    generic jenkins-creds \
+    --from-literal=jenkins-user=jdoe \
+    --from-literal=jenkins-pass=incognito

@@ -1,0 +1,2 @@
+kubectl exec -it alpine -- \
+    ls /etc/config

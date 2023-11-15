@@ -1,0 +1,10 @@
+Name:              dev
+Namespace:         dev
+Resource           Used  Hard
+--------           ----  ----
+limits.cpu         400m  1
+limits.memory      130Mi 1Gi
+pods               4     10
+requests.cpu       40m   800m
+requests.memory    65Mi  500Mi
+services.nodeports 0     0

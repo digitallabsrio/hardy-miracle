@@ -1,0 +1,7 @@
+...
+kops has set your kubectl context to devops23.k8s.local
+
+Cluster changes have been applied to the cloud.
+
+
+Changes may require instances to restart: kops rolling-update cluster

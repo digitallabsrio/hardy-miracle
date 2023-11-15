@@ -1,0 +1,3 @@
+kubectl apply \
+  -f devops-toolkit-dom.yml \
+  --record

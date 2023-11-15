@@ -1,0 +1,19 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {
+          ...
+          "SecurityGroups": [
+            {
+              "GroupName": "nodes.devops23.k8s.local",
+              "GroupId": "sg-33fd8c58"
+            }
+          ],
+          ...
+          "Placement": {
+            "Tenancy": "default",
+            "GroupName": "",
+            "AvailabilityZone": "us-east-2a"
+          },
+          ...

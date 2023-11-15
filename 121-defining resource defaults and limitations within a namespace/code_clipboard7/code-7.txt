@@ -1,0 +1,2 @@
+kubectl --namespace test describe \
+    pod go-demo-2-db

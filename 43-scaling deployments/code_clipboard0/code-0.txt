@@ -1,0 +1,8 @@
+...
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-demo-2-api
+spec:
+  replicas: 5
+...

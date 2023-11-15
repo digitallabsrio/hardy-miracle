@@ -1,0 +1,5 @@
+NAME                              READY STATUS      RESTARTS AGE
+po/go-demo-2-api-56dfb69dbd-8w6rf 0/1   Terminating 0        2m
+po/go-demo-2-api-56dfb69dbd-hrr4b 0/1   Terminating 0        2m
+po/go-demo-2-api-56dfb69dbd-ws855 0/1   Terminating 0        2m
+po/go-demo-2-db-5b49cc946b-xdd6v  0/1   Terminating 0        2m

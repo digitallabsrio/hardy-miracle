@@ -1,0 +1,2 @@
+kubectl create cm my-config \
+    --from-file=prometheus-conf.yml

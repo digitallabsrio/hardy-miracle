@@ -1,0 +1,3 @@
+kubectl set image -f go-demo-2-api.yml api=vfarcic/go-demo-2:4.0 --record
+
+kubectl rollout status -f go-demo-2-api.yml

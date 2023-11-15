@@ -1,0 +1,17 @@
+kubectl apply -f jenkins.yml
+
+kubectl rollout status deploy jenkins
+
+POD_NAME=$(kubectl get pods \
+    -l service=jenkins,type=master \
+    -o jsonpath="{.items[*].metadata.name}")
+
+kubectl exec -it $POD_NAME \
+    -- ls /etc/secrets
+
+kubectl exec -it $POD_NAME \
+    -- cat /etc/secrets/jenkins-user
+
+kubectl port-forward service/jenkins 3000:8080 --address 0.0.0.0 
+
+k3d cluster delete mycluster --all

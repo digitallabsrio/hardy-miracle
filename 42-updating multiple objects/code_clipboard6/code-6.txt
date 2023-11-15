@@ -1,0 +1,3 @@
+kubectl set image deployments \
+    -l type=db,vendor=MongoLabs \
+    db=mongo:3.4 --record

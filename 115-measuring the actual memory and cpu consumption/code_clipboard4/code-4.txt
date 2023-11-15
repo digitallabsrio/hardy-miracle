@@ -1,0 +1,4 @@
+kubectl --namespace kube-system \
+    get pods
+
+kubectl top pods

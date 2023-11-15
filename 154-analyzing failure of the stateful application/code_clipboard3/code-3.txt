@@ -1,0 +1,7 @@
+POD_NAME=$(kubectl \
+    --namespace jenkins \
+    get pods \
+    --selector=app=jenkins \
+    -o jsonpath="{.items[*].metadata.name}")
+
+echo $POD_NAME

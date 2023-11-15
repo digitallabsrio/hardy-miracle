@@ -1,0 +1,3 @@
+cd cluster
+mkdir -p config
+export KUBECONFIG=$PWD/config/kubecfg.yaml

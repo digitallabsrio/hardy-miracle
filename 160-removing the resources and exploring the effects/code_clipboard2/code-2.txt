@@ -1,0 +1,7 @@
+NAME    STATUS VOLUME        CAPACITY ACCESS MODES STORAGECLASS   AGE
+jenkins Bound  manual-ebs-02 5Gi      RWO          manual-ebs     57s
+
+NAME          CAPACITY ACCESS MODES RECLAIM POLICY STATUS    CLAIM           STORAGECLASS REASON AGE
+manual-ebs-01 5Gi      RWO          Retain         Available jenkins/jenkins manual-ebs          10m
+manual-ebs-02 5Gi      RWO          Retain         Bound     jenkins/jenkins manual-ebs          10m
+manual-ebs-03 5Gi      RWO          Retain         Available jenkins/jenkins manual-ebs          10m

@@ -1,0 +1,4 @@
+nohup kubectl port-forward -n ingress-nginx service/ingress-nginx-controller 3000:80 --address 0.0.0.0 > /dev/null 2>&1 &
+
+curl -I -H "Host: acme.com" \
+    "http://0.0.0.0:3000"

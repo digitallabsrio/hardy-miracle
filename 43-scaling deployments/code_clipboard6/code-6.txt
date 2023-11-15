@@ -1,0 +1,5 @@
+NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/go-demo-2-db   1/1     1            1           4h40m
+
+NAME                            READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/go-demo-2-api   8/8     8            8           3h28m

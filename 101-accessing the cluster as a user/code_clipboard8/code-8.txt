@@ -1,0 +1,20 @@
+kubectl config set-cluster jdoe \
+    --certificate-authority \
+    /usercode/certs/keys/server-ca.crt \
+    --server $SERVER
+
+kubectl config set-credentials jdoe \
+    --client-certificate keys/jdoe.crt \
+    --client-key keys/jdoe.key
+
+kubectl config set-context jdoe \
+    --cluster jdoe \
+    --user jdoe
+
+kubectl config use-context jdoe
+
+kubectl config view
+
+kubectl get pods
+
+kubectl get all

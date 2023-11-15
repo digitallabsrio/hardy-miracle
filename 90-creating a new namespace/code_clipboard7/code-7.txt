@@ -1,0 +1,14 @@
+kubectl create ns testing
+
+kubectl get ns
+
+kubectl config set-context testing \
+    --namespace testing \
+    --cluster k3d-mycluster \
+    --user admin@k3d-mycluster
+
+kubectl config view
+
+kubectl config use-context testing
+
+kubectl get all

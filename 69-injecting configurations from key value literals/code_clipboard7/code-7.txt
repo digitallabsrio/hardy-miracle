@@ -1,0 +1,17 @@
+kubectl create cm my-config \
+    --from-literal=something=else \
+    --from-literal=weather=sunny
+
+kubectl get cm my-config -o yaml
+
+kubectl create -f alpine.yml
+#Wait a few seconds before executing the following command
+kubectl exec -it alpine -- \
+    ls /etc/config
+
+kubectl exec -it alpine -- \
+    cat /etc/config/something
+
+kubectl delete -f alpine.yml
+#Run the below command separately to the configMap
+kubectl delete cm my-config

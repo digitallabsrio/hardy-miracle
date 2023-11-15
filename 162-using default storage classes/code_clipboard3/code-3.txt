@@ -1,0 +1,8 @@
+Name:            gp2
+IsDefaultClass:  Yes
+Annotations:     kubectl.kubernetes.io/last-applied-configuration={"apiVersion":"storage.k8s.io/v1","kind":"StorageClass","metadata":{"annotations":{"storageclass.beta.kubernetes.io/is-default-class":"true"},"labels":{"k8s-addon":"storage-aws.addons.k8s.io"},"name":"gp2","namespace":""},"parameters":{"type":"gp2"},"provisioner":"kubernetes.io/aws-ebs"}
+,storageclass.beta.kubernetes.io/is-default-class=true
+Provisioner:    kubernetes.io/aws-ebs
+Parameters:     type=gp2
+ReclaimPolicy:  Delete
+Events:         <none>

@@ -1,0 +1,2 @@
+kubectl get -f go-demo-2.yml \
+    -o jsonpath="{.spec.containers[*].name}"

@@ -1,0 +1,12 @@
+Name:        view
+Labels:      kubernetes.io/bootstrapping=rbac-defaults
+Annotations: rbac.authorization.kubernetes.io/autoupdate=true
+PolicyRule:
+  Resources              Non-Resource URLs Resource Names Verbs
+  ---------              ----------------- -------------- -----
+  bindings               []                []             [get list watch]
+  configmaps             []                []             [get list watch]
+  cronjobs.batch         []                []             [get list watch]
+  daemonsets.extensions  []                []             [get list watch]
+  deployments.apps       []                []             [get list watch]
+  ...

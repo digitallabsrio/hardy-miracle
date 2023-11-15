@@ -1,0 +1,1 @@
+kubectl scale deployment go-demo-2-api --replicas 8 --record

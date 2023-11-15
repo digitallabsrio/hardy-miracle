@@ -1,0 +1,60 @@
+kubectl create \
+    -f dev.yml \
+    --record --save-config
+
+kubectl --namespace dev describe \
+    quota dev
+
+kubectl --namespace dev create \
+    -f go-demo-2.yml \
+    --save-config --record
+
+kubectl --namespace dev \
+    rollout status \
+    deployment go-demo-2-api
+
+kubectl --namespace dev describe \
+    quota dev
+
+kubectl --namespace dev apply \
+    -f go-demo-2-scaled.yml \
+    --record
+
+kubectl --namespace dev get events
+
+kubectl describe namespace dev
+
+kubectl get pods --namespace dev
+
+kubectl --namespace dev apply \
+    -f go-demo-2.yml \
+    --record
+
+kubectl --namespace dev \
+    rollout status \
+    deployment go-demo-2-api
+
+kubectl --namespace dev apply \
+    -f go-demo-2-mem.yml \
+    --record
+
+kubectl --namespace dev get events \
+    | grep mem
+
+kubectl describe namespace dev
+
+kubectl --namespace dev apply \
+    -f go-demo-2.yml \
+    --record
+
+kubectl --namespace dev \
+    rollout status \
+    deployment go-demo-2-api
+
+kubectl expose deployment go-demo-2-api \
+    --namespace dev \
+    --name go-demo-2-api \
+    --port 8080 \
+    --type NodePort
+
+k3d cluster delete mycluster --all

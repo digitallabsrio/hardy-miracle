@@ -1,0 +1,8 @@
+aws ec2 delete-volume \
+    --volume-id $VOLUME_ID_1
+
+aws ec2 delete-volume \
+    --volume-id $VOLUME_ID_2
+
+aws ec2 delete-volume \
+    --volume-id $VOLUME_ID_3

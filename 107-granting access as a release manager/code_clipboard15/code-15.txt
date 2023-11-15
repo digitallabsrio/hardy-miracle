@@ -1,0 +1,4 @@
+kubectl create rolebinding mgandhi \
+    --clusterrole=view \
+    --user=mgandhi \
+    --namespace=jdoe

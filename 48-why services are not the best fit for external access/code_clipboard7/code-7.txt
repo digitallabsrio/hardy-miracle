@@ -1,0 +1,4 @@
+kubectl port-forward service/devops-toolkit 3000:80 --address 0.0.0.0 
+#Now open a new terminal and run the following command  
+curl -i "0.0.0.0:3000"
+#close the new terminal after running and observing the output of curl 

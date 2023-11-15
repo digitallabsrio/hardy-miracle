@@ -1,0 +1,21 @@
+...
+clusters:
+- cluster:
+    certificate-authority: /usercode/certs/keys/server-ca.crt
+    server: https://0.0.0.0:44573
+  name: jdoe
+...
+contexts:
+- context:
+    cluster: jdoe
+    user: jdoe
+  name: jdoe
+...
+current-context: jdoe
+...
+users:
+- name: jdoe
+  user:
+    client-certificate: /usercode/certs/keys/jdoe.crt
+    client-key: /usercode/certs/keys/jdoe.key
+...

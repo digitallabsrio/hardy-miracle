@@ -1,0 +1,19 @@
+Using cluster from kubectl context: devops23.k8s.local
+
+Validating cluster devops23.k8s.local
+
+INSTANCE GROUPS
+NAME              ROLE   MACHINETYPE MIN MAX SUBNETS
+master-us-east-2a Master t2.small    1   1   us-east-2a
+master-us-east-2b Master t2.small    1   1   us-east-2b
+master-us-east-2c Master t2.small    1   1   us-east-2c
+nodes             Node   t2.small    1   1   us-east-2a,us-east-2b,us-east-2c
+
+NODE STATUS
+NAME                 ROLE   READY
+ip-172-20-120-133... master True
+ip-172-20-34-249...  master True
+ip-172-20-65-28...   master True
+ip-172-20-95-101...  node   True
+
+Your cluster devops23.k8s.local is ready

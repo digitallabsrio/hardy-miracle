@@ -1,0 +1,17 @@
+Name:         release-manager
+Labels:       <none>
+Annotations:  kubernetes.io/change-cause: kubectl create --filename=crb-release-manager.yml --record=true --save-config=true
+PolicyRule:
+  Resources               Non-Resource URLs  Resource Names  Verbs
+  ---------               -----------------  --------------  -----
+  pods/attach             []                 []              [*]
+  pods/exec               []                 []              [*]
+  pods/log                []                 []              [*]
+  pods/status             []                 []              [*]
+  pods                    []                 []              [*]
+  deployments             []                 []              [create get list update watch]
+  replicasets             []                 []              [create get list update watch]
+  deployments.apps        []                 []              [create get list update watch]
+  replicasets.apps        []                 []              [create get list update watch]
+  deployments.extensions  []                 []              [create get list update watch]
+  replicasets.extensions  []                 []              [create get list update watch]

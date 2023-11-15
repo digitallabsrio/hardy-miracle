@@ -1,0 +1,6 @@
+NAME                                        STATUS ROLES  AGE VERSION
+ip-172-20-55-183.us-east-2.compute.internal Ready  master 32m v1.9.3
+ip-172-20-61-82.us-east-2.compute.internal  Ready  node   15m v1.9.3
+ip-172-20-71-53.us-east-2.compute.internal  Ready  master 32m v1.9.3
+ip-172-20-79-161.us-east-2.compute.internal Ready  node   2m  v1.9.3
+ip-172-20-97-39.us-east-2.compute.internal  Ready  master 32m v1.9.3

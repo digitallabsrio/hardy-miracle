@@ -1,0 +1,4 @@
+docker image build \
+    -t vfarcic/go-demo-2:beta .
+docker image ls \
+    --format "{{.Repository}}"

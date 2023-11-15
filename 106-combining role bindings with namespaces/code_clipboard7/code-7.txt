@@ -1,0 +1,2 @@
+kubectl --namespace jdoe auth can-i \
+    "*" "*" --as jdoe

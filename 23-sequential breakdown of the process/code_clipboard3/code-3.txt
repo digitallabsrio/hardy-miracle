@@ -1,0 +1,1 @@
+kubectl delete svc go-demo-2-svc

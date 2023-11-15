@@ -1,0 +1,5 @@
+ingress "go-demo-2" created
+deployment "go-demo-2-db" created
+service "go-demo-2-db" created
+deployment "go-demo-2-api" created
+service "go-demo-2-api" created

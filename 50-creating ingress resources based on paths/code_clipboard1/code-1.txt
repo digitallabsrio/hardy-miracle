@@ -1,0 +1,3 @@
+kubectl create -f go-demo-2-ingress.yml
+
+kubectl get -f go-demo-2-ingress.yml

@@ -1,0 +1,6 @@
+NAME            READY STATUS  RESTARTS AGE LABELS
+go-demo-2-ckmtv 2/2   Running 0        24m db=mongo,language=go,service=go-demo-2,type=backend
+go-demo-2-lt4qm 2/2   Running 0        24m db=mongo,language=go,service=go-demo-2,type=backend
+go-demo-2-md5xp 2/2   Running 0        28m db=mongo,language=go,type=backend
+go-demo-2-nrnbh 2/2   Running 0        4m  db=mongo,language=go,service=go-demo-2,type=backend
+go-demo-2-t8sfs 2/2   Running 0        15m db=mongo,language=go,service=go-demo-2,type=backend

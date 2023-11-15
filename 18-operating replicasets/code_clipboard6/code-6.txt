@@ -1,0 +1,3 @@
+NAME            READY STATUS  RESTARTS AGE
+go-demo-2-md5xp 2/2   Running 0        10m
+go-demo-2-vnmf7 2/2   Running 0        10m

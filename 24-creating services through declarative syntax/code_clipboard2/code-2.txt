@@ -1,0 +1,2 @@
+NAME      TYPE     CLUSTER-IP EXTERNAL-IP PORT(S)         AGE
+go-demo-2 NodePort 10.0.0.129 <none>      28017:30001/TCP 10m

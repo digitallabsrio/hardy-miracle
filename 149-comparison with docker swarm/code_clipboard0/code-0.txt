@@ -1,0 +1,13 @@
+aws cloudformation create-stack \
+    --template-url https://editions-us-east-1.s3.amazonaws.com/aws/stable/Docker.tmpl \
+    --capabilities CAPABILITY_IAM \
+    --stack-name devops22 \
+    --parameters \
+    ParameterKey=ManagerSize,ParameterValue=3 \
+    ParameterKey=ClusterSize,ParameterValue=2 \
+    ParameterKey=KeyName,ParameterValue=workshop \
+    ParameterKey=EnableSystemPrune,ParameterValue=yes \
+    ParameterKey=EnableCloudWatchLogs,ParameterValue=no \
+    ParameterKey=EnableCloudStorEfs,ParameterValue=yes \
+    ParameterKey=ManagerInstanceType,ParameterValue=t2.small \
+    ParameterKey=InstanceType,ParameterValue=t2.small

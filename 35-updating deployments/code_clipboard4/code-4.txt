@@ -1,0 +1,12 @@
+NAME                                READY   STATUS    RESTARTS   AGE
+pod/go-demo-2-db-6b48fcbfcf-px5wn   1/1     Running   0          5m18s
+
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.43.0.1    <none>        443/TCP   7m9s
+
+NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/go-demo-2-db   1/1     1            1           6m48s
+
+NAME                                      DESIRED   CURRENT   READY   AGE
+replicaset.apps/go-demo-2-db-6b48fcbfcf   1         1         1       5m18s
+replicaset.apps/go-demo-2-db-76668544d4   0         0         0       6m48s

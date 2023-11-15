@@ -1,0 +1,1 @@
+curl -i "http://$CLUSTER_DNS/demo/hello"

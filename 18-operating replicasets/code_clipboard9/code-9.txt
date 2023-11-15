@@ -1,0 +1,5 @@
+NAME            READY STATUS  RESTARTS AGE
+go-demo-2-ckmtv 2/2   Running 0        50s
+go-demo-2-lt4qm 2/2   Running 0        50s
+go-demo-2-md5xp 2/2   Running 0        11m
+go-demo-2-vnmf7 2/2   Running 0        11m

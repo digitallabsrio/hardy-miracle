@@ -1,0 +1,6 @@
+kubectl create \
+    -f go-demo-2-random.yml \
+    --record --save-config
+
+kubectl rollout status \
+    deployment go-demo-2-api

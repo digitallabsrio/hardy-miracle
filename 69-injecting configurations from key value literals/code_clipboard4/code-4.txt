@@ -1,0 +1,2 @@
+kubectl exec -it alpine -- \
+    cat /etc/config/something

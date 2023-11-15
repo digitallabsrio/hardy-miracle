@@ -1,0 +1,25 @@
+kubectl create -f go-demo-2-deploy.yml
+
+kubectl get -f go-demo-2-deploy.yml
+
+kubectl get pods
+
+kubectl port-forward service/go-demo-2-api 3000:8080 --address 0.0.0.0 
+#Now open a new terminal and run the following command 
+curl -i "0.0.0.0:3000/demo/hello"
+#close the new terminal after running and observing the output of curl 
+
+kubectl create -f devops-toolkit-dep.yml --record --save-config
+
+kubectl get -f devops-toolkit-dep.yml
+
+kubectl port-forward service/devops-toolkit 3000:80 --address 0.0.0.0 
+#Now open a new terminal and run the following commands
+
+curl -i "0.0.0.0:3000"
+
+curl -i "0.0.0.0:80/demo/hello"
+
+curl -i \
+    -H "Host: devopstoolkitseries.com" \
+    "http://0.0.0.0:80"

@@ -1,0 +1,30 @@
+...
+Capacity:
+  cpu:                2
+  ephemeral-storage:  10193976Ki
+  hugepages-2Mi:      0
+  memory:             6673760Ki
+  pods:               110
+...
+Non-terminated Pods:          (9 in total)
+  Namespace                   Name                                       CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                       ------------  ----------  ---------------  -------------  ---
+  kube-system                 metrics-server-86cbb8457f-cpnrd            0 (0%)        0 (0%)      0 (0%)           0 (0%)         119s
+  kube-system                 coredns-7448499f4d-6q9fr                   100m (5%)     0 (0%)      70Mi (1%)        170Mi (2%)     119s
+  kube-system                 local-path-provisioner-5ff76fc89d-7mrn7    0 (0%)        0 (0%)      0 (0%)           0 (0%)         119s
+  kube-system                 svclb-traefik-dlvcn                        0 (0%)        0 (0%)      0 (0%)           0 (0%)         66s
+  kube-system                 traefik-97b44b794-qpmqb                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         69s
+  default                     go-demo-2-db-6f85456b6c-f8fkl              300m (15%)    500m (25%)  100Mi (1%)       200Mi (3%)     85s
+  default                     go-demo-2-api-6bd5c5d6b5-k9q7p             100m (5%)     200m (10%)  50Mi (0%)        100Mi (1%)     85s
+  default                     go-demo-2-api-6bd5c5d6b5-5zslf             100m (5%)     200m (10%)  50Mi (0%)        100Mi (1%)     85s
+  default                     go-demo-2-api-6bd5c5d6b5-zmqdp             100m (5%)     200m (10%)  50Mi (0%)        100Mi (1%)     85s
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests    Limits
+  --------           --------    ------
+  cpu                700m (35%)  1100m (55%)
+  memory             320Mi (4%)  670Mi (10%)
+  ephemeral-storage  0 (0%)      0 (0%)
+  hugepages-2Mi      0 (0%)      0 (0%)
+
+...

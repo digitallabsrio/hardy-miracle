@@ -1,0 +1,2 @@
+NAME      DESIRED CURRENT READY AGE
+go-demo-2 2       2       2     1m

@@ -1,0 +1,4 @@
+apk add -U git
+git clone \
+    https://github.com/Faizan-Zia/go-demo-2
+cd go-demo-2

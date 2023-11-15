@@ -1,0 +1,6 @@
+...
+Events:
+  Type   Reason           Age  From                  Message
+  ----   ------           ---- ----                  -------
+  Normal SuccessfulCreate 3m   replicaset-controller Created pod: go-demo-2-v59t5
+  Normal SuccessfulCreate 3m   replicaset-controller Created pod: go-demo-2-5fd54

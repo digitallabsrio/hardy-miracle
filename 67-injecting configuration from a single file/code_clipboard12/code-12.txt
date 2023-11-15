@@ -1,0 +1,20 @@
+kubectl create cm my-config \
+    --from-file=prometheus-conf.yml
+
+kubectl describe cm my-config
+
+kubectl create -f alpine.yml
+kubectl get pods
+
+kubectl exec -it alpine -- \
+    ls /etc/config
+
+kubectl exec -it alpine --  \
+  ls -l /etc/config
+
+kubectl exec -it alpine -- \
+    cat /etc/config/prometheus-conf.yml
+
+kubectl delete -f alpine.yml
+
+kubectl delete cm my-config

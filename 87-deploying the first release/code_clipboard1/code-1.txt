@@ -1,0 +1,8 @@
+IMG=vfarcic/go-demo-2
+
+TAG=1.0
+
+cat go-demo-2.yml \
+    | sed -e \
+    "s@image: $IMG@image: $IMG:$TAG@g" \
+    | kubectl create -f -

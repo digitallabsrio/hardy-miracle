@@ -1,0 +1,11 @@
+kubectl apply \
+  -f devops-toolkit-dom.yml \
+  --record
+
+nohup kubectl port-forward -n ingress-nginx service/ingress-nginx-controller 3000:80 --address 0.0.0.0 > /dev/null 2>&1 &
+
+curl -i "http://0.0.0.0:3000"
+
+curl -I -H "Host: devopstoolkitseries.com" "http://0.0.0.0:3000"
+
+curl -H "Host: acme.com" "http://0.0.0.0:3000/demo/hello"

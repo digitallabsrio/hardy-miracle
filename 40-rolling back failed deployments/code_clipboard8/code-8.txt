@@ -1,0 +1,5 @@
+kubectl delete -f go-demo-2-db.yml
+
+kubectl delete -f go-demo-2-db-svc.yml
+
+kubectl delete -f go-demo-2-api.yml

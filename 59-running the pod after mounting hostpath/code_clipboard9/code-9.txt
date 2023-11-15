@@ -1,0 +1,4 @@
+exit
+
+kubectl delete \
+    -f docker.yml

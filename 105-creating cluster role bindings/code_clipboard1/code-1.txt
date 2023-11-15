@@ -1,0 +1,2 @@
+kubectl create -f crb-view.yml \
+    --record --save-config

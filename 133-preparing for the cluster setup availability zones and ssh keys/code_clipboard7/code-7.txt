@@ -1,0 +1,2 @@
+ssh-keygen -y -f devops23.pem \
+    >devops23.pub

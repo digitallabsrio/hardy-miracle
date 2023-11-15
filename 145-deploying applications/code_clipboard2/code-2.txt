@@ -1,0 +1,2 @@
+kubectl rollout status \
+    deployment go-demo-2-api

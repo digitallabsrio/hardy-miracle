@@ -1,0 +1,22 @@
+kubectl config use-context k3d-mycluster
+
+kubectl get all
+
+kubectl auth can-i get pods --as jdoe
+
+kubectl get roles
+
+kubectl get clusterroles
+
+kubectl get clusterroles | grep -v system
+
+kubectl describe clusterrole view
+
+kubectl describe clusterrole edit
+
+kubectl describe clusterrole admin
+
+kubectl describe clusterrole \
+    cluster-admin
+
+kubectl auth can-i "*" "*"

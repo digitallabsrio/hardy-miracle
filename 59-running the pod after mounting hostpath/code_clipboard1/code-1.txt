@@ -1,0 +1,3 @@
+kubectl exec -it docker \
+    -- docker image ls \
+    --format "{{.Repository}}"

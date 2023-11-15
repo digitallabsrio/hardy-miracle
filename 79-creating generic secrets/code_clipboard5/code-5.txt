@@ -1,0 +1,3 @@
+kubectl get secret my-creds \
+    -o jsonpath="{.data.username}" \
+    | base64 --decode

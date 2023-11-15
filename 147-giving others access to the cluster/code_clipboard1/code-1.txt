@@ -1,0 +1,2 @@
+kops export kubecfg --name ${NAME}
+cat $KUBECONFIG

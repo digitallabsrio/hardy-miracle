@@ -1,0 +1,21 @@
+...
+    Mounts:
+      /var/jenkins_home from jenkins-home (rw)
+      /var/run/secrets/kubernetes.io/serviceaccount from default-token-l9fhk (ro)
+...
+Volumes:
+  jenkins-home:
+    Type:    EmptyDir (a temporary directory that shares a pods lifetime)
+    Medium:
+  default-token-l9fhk:
+    Type:        Secret (a volume populated by a Secret)
+    SecretName:  default-token-l9fhk
+    Optional:    false
+...
+
+#my output 
+Volumes:
+  jenkins-home:
+    Type:       EmptyDir (a temporary directory that shares a pod's lifetime)
+    Medium:     
+    SizeLimit:  <unset>

@@ -1,0 +1,2 @@
+kubectl describe \
+    clusterrole release-manager

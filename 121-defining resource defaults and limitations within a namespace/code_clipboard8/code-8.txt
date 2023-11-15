@@ -1,0 +1,11 @@
+...
+Containers:
+  db:
+    ...
+    Limits:
+      cpu:     200m
+      memory:  50Mi
+    Requests:
+      cpu:        50m
+      memory:     30Mi
+...

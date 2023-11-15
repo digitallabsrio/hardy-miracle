@@ -1,0 +1,7 @@
+vfarcic/go-demo-2
+<none>
+golang
+rancher/k3d-tools
+rancher/k3d-proxy
+rancher/k3s
+alpine

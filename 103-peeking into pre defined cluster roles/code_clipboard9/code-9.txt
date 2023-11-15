@@ -1,0 +1,9 @@
+...
+pods             [] [] [create delete deletecollection get list patch update watch]
+pods/attach      [] [] [create delete deletecollection get list patch update watch]
+pods/exec        [] [] [create delete deletecollection get list patch update watch]
+pods/log         [] [] [get list watch]
+pods/portforward [] [] [create delete deletecollection get list patch update watch]
+pods/proxy       [] [] [create delete deletecollection get list patch update watch]
+pods/status      [] [] [get list watch]
+...

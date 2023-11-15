@@ -1,0 +1,18 @@
+kubectl create -f go-demo-2-ingress.yml
+
+kubectl get -f go-demo-2-ingress.yml
+
+nohup kubectl port-forward -n ingress-nginx service/ingress-nginx-controller 3000:80 --address 0.0.0.0 > /dev/null 2>&1 &
+
+curl -i "http://0.0.0.0:3000/demo/hello"
+
+kubectl delete -f go-demo-2-ingress.yml
+
+kubectl delete -f go-demo-2-deploy.yml
+
+kubectl create -f go-demo-2.yml \
+    --record --save-config
+
+nohup kubectl port-forward -n ingress-nginx service/ingress-nginx-controller 3000:80 --address 0.0.0.0 > /dev/null 2>&1 &
+
+curl -i "http://0.0.0.0:3000/demo/hello"

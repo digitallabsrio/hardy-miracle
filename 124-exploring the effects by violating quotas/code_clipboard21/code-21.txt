@@ -1,0 +1,7 @@
+kubectl --namespace dev apply \
+    -f go-demo-2.yml \
+    --record
+
+kubectl --namespace dev \
+    rollout status \
+    deployment go-demo-2-api

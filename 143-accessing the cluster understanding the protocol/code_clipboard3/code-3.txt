@@ -1,0 +1,12 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: DATA+OMITTED
+    server: https://api-devops23-k8s-local-ivnbim-1190013982.us-east-2.elb.amazonaws.com
+  name: devops23.k8s.local
+...
+contexts:
+  cluster: devops23.k8s.local
+  user: devops23.k8s.local
+  name: devops23.k8s.local
+...

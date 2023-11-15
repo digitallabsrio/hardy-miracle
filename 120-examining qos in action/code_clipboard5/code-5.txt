@@ -1,0 +1,12 @@
+Containers:
+  db:
+    ...
+    Limits:
+      cpu:    100m
+      memory: 50Mi
+    Requests:
+      cpu:    100m
+      memory: 50Mi
+...
+QoS Class: Guaranteed
+...

@@ -1,0 +1,7 @@
+POD_NAME=$(kubectl get pods \
+    -l service=jenkins,type=master \
+    -o jsonpath="{.items[*].metadata.name}")
+
+kubectl exec -it $POD_NAME kill 1
+
+kubectl get pods

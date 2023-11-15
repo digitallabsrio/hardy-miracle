@@ -1,0 +1,3 @@
+kubectl config set-credentials jdoe \
+    --client-certificate keys/jdoe.crt \
+    --client-key keys/jdoe.key

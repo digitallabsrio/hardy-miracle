@@ -1,0 +1,4 @@
+kubectl --namespace jenkins \
+    get pods \
+    --selector=app=jenkins \
+    -o json

@@ -1,0 +1,6 @@
+CLUSTER_DNS=$(aws elb \
+    describe-load-balancers | jq -r \
+    ".LoadBalancerDescriptions[] \
+    | select(.DNSName \
+    | contains (\"api-devops23\") \
+    | not).DNSName")

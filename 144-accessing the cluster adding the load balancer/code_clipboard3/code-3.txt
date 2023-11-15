@@ -1,0 +1,14 @@
+NAME                         DESIRED CURRENT UP-TO-DATE AVAILABLE AGE
+deploy/ingress-nginx         3       3       3          3         1m
+deploy/nginx-default-backend 1       1       1          1         1m
+NAME                                DESIRED CURRENT READY AGE
+rs/ingress-nginx-768fc7997b         3       3       3     1m
+rs/nginx-default-backend-74f9cd546d 1       1       1     1m
+NAME                                      READY STATUS  RESTARTS AGE
+po/ingress-nginx-768fc7997b-4xfq8         1/1   Running 0        1m
+po/ingress-nginx-768fc7997b-c7zvx         1/1   Running 0        1m
+po/ingress-nginx-768fc7997b-clr5m         1/1   Running 0        1m
+po/nginx-default-backend-74f9cd546d-mtct8 1/1   Running 0        1m
+NAME                      TYPE         CLUSTER-IP     EXTERNAL-IP      PORT(S)                    AGE
+svc/ingress-nginx         LoadBalancer 100.66.190.165 abb5117871831... 80:31895/TCP,443:32697/TCP 1m
+svc/nginx-default-backend ClusterIP    100.70.227.240 <none>           80/TCP                     1m

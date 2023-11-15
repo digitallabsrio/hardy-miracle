@@ -1,0 +1,2 @@
+NAME    CAPACITY ACCESS MODES RECLAIM POLICY STATUS CLAIM           STORAGECLASS REASON AGE
+pvc-... 1Gi      RWO          Delete         Bound  jenkins/jenkins gp2                 16s

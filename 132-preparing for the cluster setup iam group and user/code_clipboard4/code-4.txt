@@ -1,0 +1,9 @@
+{
+    "User": {
+        "UserName": "kops",
+        "Path": "/",
+        "CreateDate": "2018-02-21T12:59:28.836Z",
+        "UserId": "AIDAJ22UOS7JVYQIAVMWA",
+        "Arn": "arn:aws:iam::036548781187:user/kops"
+    }
+}

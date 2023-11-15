@@ -1,0 +1,14 @@
+NAME                      READY   STATUS    RESTARTS   AGE
+pod/go-demo-2-api-r55fs   1/1     Running   0          3m32s
+pod/go-demo-2-api-sng48   1/1     Running   0          3m32s
+pod/go-demo-2-api-vvcbp   1/1     Running   0          3m32s
+pod/go-demo-2-db-bwvkb    1/1     Running   0          4m20s
+
+NAME                    TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+service/go-demo-2-api   NodePort    10.110.71.67    <none>        8080:31148/TCP   3m23s
+service/go-demo-2-db    ClusterIP   10.104.40.176   <none>        27017/TCP        4m1s
+service/kubernetes      ClusterIP   10.96.0.1       <none>        443/TCP          16m
+
+NAME                            DESIRED   CURRENT   READY   AGE
+replicaset.apps/go-demo-2-api   3         3         3       3m33s
+replicaset.apps/go-demo-2-db    1         1         1       4m20s

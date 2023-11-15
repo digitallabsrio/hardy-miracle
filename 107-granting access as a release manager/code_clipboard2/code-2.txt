@@ -1,0 +1,9 @@
+...
+rules:
+- resources: ["pods", "pods/attach", "pods/exec", "pods/log", "pods/status"]
+  verbs: ["*"]
+  apiGroups: [""]
+- resources: ["deployments", "replicasets"]
+  verbs: ["create", "get", "list", "watch"]
+  apiGroups: ["", "apps", "extensions"]
+...

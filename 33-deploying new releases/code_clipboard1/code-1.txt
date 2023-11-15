@@ -1,0 +1,4 @@
+kubectl create \
+    -f go-demo-2-db.yml \
+    
+kubectl get -f go-demo-2-db.yml

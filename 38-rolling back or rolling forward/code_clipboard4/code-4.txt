@@ -1,0 +1,5 @@
+kubectl rollout undo -f go-demo-2-api.yml
+
+kubectl describe -f go-demo-2-api.yml
+
+kubectl rollout history -f go-demo-2-api.yml

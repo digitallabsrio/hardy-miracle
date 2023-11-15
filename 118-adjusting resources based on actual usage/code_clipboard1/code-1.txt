@@ -1,0 +1,5 @@
+NAME              CPU(cores) MEMORY(bytes)   
+go-demo-2-api-... 0m         4Mi             
+go-demo-2-api-... 0m         4Mi             
+go-demo-2-api-... 0m         4Mi             
+go-demo-2-db-...  4m         34Mi 

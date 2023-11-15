@@ -1,0 +1,1 @@
+kops rolling-update cluster $NAME

@@ -1,0 +1,2 @@
+kubectl create -f pv/pvc.yml \
+    --save-config --record

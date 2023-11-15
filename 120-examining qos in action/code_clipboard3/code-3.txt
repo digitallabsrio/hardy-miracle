@@ -1,0 +1,6 @@
+kubectl apply \
+    -f go-demo-2-qos.yml \
+    --record
+
+kubectl rollout status \
+    deployment go-demo-2-db

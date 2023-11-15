@@ -1,0 +1,10 @@
+Name:         view
+Labels:       <none>
+Annotations:  kubernetes.io/change-cause: kubectl create --filename=crb-view.yml --record=true --save-config=true
+Role:
+  Kind:  ClusterRole
+  Name:  view
+Subjects:
+  Kind  Name  Namespace
+  ----  ----  ---------
+  User  jdoe  

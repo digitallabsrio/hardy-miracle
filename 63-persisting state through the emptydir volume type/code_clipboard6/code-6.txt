@@ -1,0 +1,21 @@
+kubectl apply \
+    -f jenkins-empty-dir.yml
+
+kubectl rollout status deploy jenkins
+
+kubectl port-forward service/jenkins 3000:8080 --address 0.0.0.0
+#Open the link beside run button 
+#add a new job 
+
+POD_NAME=$(kubectl get pods \
+    -l service=jenkins,type=master \
+    -o jsonpath="{.items[*].metadata.name}")
+
+kubectl exec $POD_NAME -- kill 1
+
+kubectl get pods
+
+kubectl port-forward service/jenkins 3000:8080 --address 0.0.0.0
+#Open the link beside run button and remove /newJob at the end
+
+k3d cluster delete mycluster --all

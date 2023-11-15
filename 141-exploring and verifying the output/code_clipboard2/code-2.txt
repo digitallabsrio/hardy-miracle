@@ -1,0 +1,2 @@
+I0225 23:09:38.218945 1 instancegroups.go:161] Validating the cluster.
+I0225 23:09:39.437456 1 instancegroups.go:212] Cluster validated.

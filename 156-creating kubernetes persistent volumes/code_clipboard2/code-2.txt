@@ -1,0 +1,9 @@
+cat pv/pv.yml \
+    | sed -e \
+    "s@REPLACE_ME_1@$VOLUME_ID_1@g" \
+    | sed -e \
+    "s@REPLACE_ME_2@$VOLUME_ID_2@g" \
+    | sed -e \
+    "s@REPLACE_ME_3@$VOLUME_ID_3@g" \
+    | kubectl create -f - \
+    --save-config --record

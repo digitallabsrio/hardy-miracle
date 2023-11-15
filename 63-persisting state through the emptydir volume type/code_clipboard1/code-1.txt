@@ -1,0 +1,4 @@
+kubectl apply \
+    -f jenkins-empty-dir.yml
+
+kubectl rollout status deploy jenkins

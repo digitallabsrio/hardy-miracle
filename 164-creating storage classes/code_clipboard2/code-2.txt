@@ -1,0 +1,4 @@
+NAME          PROVISIONER           AGE
+default       kubernetes.io/aws-ebs 58m
+fast          kubernetes.io/aws-ebs 19s
+gp2 (default) kubernetes.io/aws-ebs 58m

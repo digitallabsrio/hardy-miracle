@@ -1,0 +1,6 @@
+...
+Resource Limits
+ Type      Resource Min  Max  Default Request Default Limit Max Limit/Request Ratio
+ ----      -------- ---  ---  --------------- ------------- -----------------------
+ Container cpu      10m  500m 50m             200m          -
+ Container memory   10Mi 80Mi 30Mi            50Mi          -

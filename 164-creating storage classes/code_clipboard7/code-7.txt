@@ -1,0 +1,2 @@
+aws ec2 describe-volumes \
+    --filters 'Name=tag-key,Values="kubernetes.io/created-for/pvc/name"'

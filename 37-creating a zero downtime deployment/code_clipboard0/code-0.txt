@@ -1,0 +1,3 @@
+kubectl create -f go-demo-2-api.yml --record
+
+kubectl get -f go-demo-2-api.yml

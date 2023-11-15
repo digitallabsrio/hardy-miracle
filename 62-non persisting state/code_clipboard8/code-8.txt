@@ -1,0 +1,22 @@
+kubectl create \
+    -f jenkins.yml \
+    --record --save-config
+
+kubectl rollout status deploy jenkins
+
+kubectl port-forward service/jenkins 3000:8080 --address 0.0.0.0
+# click the link besides run button
+
+kubectl port-forward service/jenkins 3000:8080 --address 0.0.0.0
+#click link besides run button and add /newJob at the end
+
+POD_NAME=$(kubectl get pods \
+    -l service=jenkins,type=master \
+    -o jsonpath="{.items[*].metadata.name}")
+
+kubectl exec $POD_NAME -it -- kill 1
+
+kubectl get pods
+
+kubectl port-forward service/jenkins 3000:8080 --address 0.0.0.0
+#click the link besides run button 

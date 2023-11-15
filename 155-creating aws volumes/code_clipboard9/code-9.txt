@@ -1,0 +1,22 @@
+{
+  "Volumes": [
+    {
+      "AvailabilityZone": "us-east-2c",
+      "Attachments": [],
+      "Tags": [
+        {
+          "Value": "devops23.k8s.local",
+          "Key": "KubernetesCluster"
+        }
+      ],
+      "Encrypted": false,
+      "VolumeType": "gp2",
+      "VolumeId": "vol-092b8980b1964574a",
+      "State": "available",
+      "Iops": 100,
+      "SnapshotId": "",
+      "CreateTime": "2018-03-14T21:47:13.242Z",
+      "Size": 10
+    }
+  ]
+}

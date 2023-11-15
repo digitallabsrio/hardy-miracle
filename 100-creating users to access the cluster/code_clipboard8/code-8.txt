@@ -1,0 +1,4 @@
+jdoe.crt
+jdoe.csr
+jdoe.key
+server-ca.crt

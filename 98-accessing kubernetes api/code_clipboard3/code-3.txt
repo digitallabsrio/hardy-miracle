@@ -1,0 +1,4 @@
+kubectl config view \
+    -o jsonpath='{.clusters[?(@.name=="k3d-mycluster")].cluster.server}'
+
+ls usercode/certs

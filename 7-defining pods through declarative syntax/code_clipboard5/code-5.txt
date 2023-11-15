@@ -1,0 +1,2 @@
+NAME   READY   STATUS    RESTARTS   AGE   IP          NODE                     NOMINATED NODE   READINESS GATES
+db     1/1     Running   0          92s   10.42.0.9   k3d-mycluster-server-0   <none>           <none

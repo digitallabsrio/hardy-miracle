@@ -1,0 +1,4 @@
+kubectl create secret \
+    generic my-creds \
+    --from-literal=username=jdoe \
+    --from-literal=password=incognito

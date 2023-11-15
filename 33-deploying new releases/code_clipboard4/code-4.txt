@@ -1,0 +1,5 @@
+...
+Events:
+  Type   Reason            Age  From                  Message
+  ----   ------            ---- ----                  -------
+  Normal ScalingReplicaSet 2m   deployment-controller Scaled up replica set go-demo-2-db-75fbcbb5cd to 1

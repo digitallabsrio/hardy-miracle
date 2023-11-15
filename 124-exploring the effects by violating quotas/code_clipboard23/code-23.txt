@@ -1,0 +1,1 @@
+Error from server (Forbidden): services "go-demo-2-api" is forbidden: exceeded quota: dev, requested: services.nodeports=1, used: services.nodeports=0, limited: services.nodeports=0

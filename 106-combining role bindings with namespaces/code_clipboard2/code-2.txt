@@ -1,0 +1,2 @@
+namespace/dev created
+rolebinding.rbac.authorization.k8s.io/dev created

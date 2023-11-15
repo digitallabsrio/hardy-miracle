@@ -1,0 +1,3 @@
+persistentvolume "manual-ebs-01" deleted
+persistentvolume "manual-ebs-02" deleted
+persistentvolume "manual-ebs-03" deleted

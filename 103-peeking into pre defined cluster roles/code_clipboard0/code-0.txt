@@ -1,0 +1,2 @@
+kubectl config use-context k3d-mycluster
+kubectl get all

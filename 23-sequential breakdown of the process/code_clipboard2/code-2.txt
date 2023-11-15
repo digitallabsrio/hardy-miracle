@@ -1,0 +1,4 @@
+kubectl port-forward service/go-demo-2-svc 3000:28017 --address 0.0.0.0
+#Now click on the link beside Run button 
+# Exit the port-forward process by clicking Ctrl + C for Windows
+# Or Control + C for Mac before running the next command

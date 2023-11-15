@@ -1,0 +1,5 @@
+kubectl config use-context k3d-mycluster
+
+kubectl run test \
+    --image=alpine \
+    sleep 10000

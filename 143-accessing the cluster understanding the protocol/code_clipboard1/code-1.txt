@@ -1,0 +1,28 @@
+{
+  "LoadBalancerDescriptions": [
+    {
+      ...
+      "ListenerDescriptions": [
+        {
+          "Listener": {
+            "InstancePort": 443, 
+            "LoadBalancerPort": 443, 
+            "Protocol": "TCP", 
+            "InstanceProtocol": "TCP"
+          }, 
+          ...
+      "Instances": [
+        {
+          "InstanceId": "i-01f5c2ca47168b248"
+        }, 
+        {
+          "InstanceId": "i-0305e3b2d3da6e1ce"
+        }, 
+        {
+          "InstanceId": "i-04291ef2432b462f2"
+        }
+      ], 
+      "DNSName": "api-devops23-k8s-local-ivnbim-1190013982.us-east-2.elb.amazonaws.com", 
+      ...
+      "LoadBalancerName": "api-devops23-k8s-local-ivnbim", 
+      ...

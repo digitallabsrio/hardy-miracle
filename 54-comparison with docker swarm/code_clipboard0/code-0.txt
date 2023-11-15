@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: devops-toolkit
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: devops-toolkit
+            port:
+              number: 80

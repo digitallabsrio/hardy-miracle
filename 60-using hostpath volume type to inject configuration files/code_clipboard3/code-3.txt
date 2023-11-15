@@ -1,0 +1,2 @@
+kubectl port-forward service/prometheus --address 0.0.0.0  3000:9090
+#open the link besides the run button

@@ -1,0 +1,11 @@
+aws ec2 describe-instances \
+    | jq -r \
+    ".Reservations[].Instances[] \
+    | select(.SecurityGroups[]\
+    .GroupName==\"nodes.$NAME\")\
+    .Placement.AvailabilityZone" \
+    | tee zones
+
+AZ_1=$(cat zones | head -n 1)
+
+AZ_2=$(cat zones | tail -n 1)

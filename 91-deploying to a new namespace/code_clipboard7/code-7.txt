@@ -1,0 +1,21 @@
+IMG=vfarcic/go-demo-2
+
+TAG=2.0
+
+DOM=go-demo-2.com
+
+cat go-demo-2.yml \
+    | sed -e \
+    "s@image: $IMG@image: $IMG:$TAG@g" \
+    | sed -e \
+    "s@host: $DOM@host: $TAG\.$DOM@g" \
+    | kubectl create -f -
+
+kubectl rollout status \
+    deploy go-demo-2-api
+
+nohup kubectl port-forward -n ingress-nginx service/ingress-nginx-controller 3000:80 --address 0.0.0.0  > /dev/null 2>&1 &
+
+curl -H "Host: go-demo-2.com" "http://0.0.0.0:3000/demo/hello"
+
+curl -H "Host: 2.0.go-demo-2.com" "http://0.0.0.0:3000/demo/hello"

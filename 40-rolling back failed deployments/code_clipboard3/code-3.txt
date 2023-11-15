@@ -1,0 +1,6 @@
+NAME                     DESIRED CURRENT READY AGE
+go-demo-2-api-5b49d94f9b 0       0       0     8m
+go-demo-2-api-68c75f4f5  2       2       2     9m
+go-demo-2-api-7cb9bb5675 0       0       0     8m
+go-demo-2-api-68df567fb5 0       0       0     9m
+go-demo-2-api-dc7877dcd  2       2       0     4m

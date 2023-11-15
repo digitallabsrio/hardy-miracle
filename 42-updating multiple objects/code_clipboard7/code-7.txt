@@ -1,0 +1,2 @@
+deployment.apps/go-demo-2-db image updated
+deployment.apps/different-app-db image updated

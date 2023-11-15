@@ -1,0 +1,14 @@
+...
+Replicas:               3 desired | 3 updated | 3 total | 3 available | 0 unavailable
+...
+OldReplicaSets:  <none>
+NewReplicaSet:   go-demo-2-api-559d6888df (3/3 replicas created)
+Events:
+  Type    Reason             Age   From                   Message
+  ----    ------             ----  ----                   -------
+  Normal  ScalingReplicaSet  64s   deployment-controller  Scaled up replica set go-demo-2-api-566c5b97f5 to 3
+  Normal  ScalingReplicaSet  45s   deployment-controller  Scaled up replica set go-demo-2-api-559d6888df to 1
+  Normal  ScalingReplicaSet  45s   deployment-controller  Scaled down replica set go-demo-2-api-566c5b97f5 to 2
+  Normal  ScalingReplicaSet  45s   deployment-controller  Scaled up replica set go-demo-2-api-559d6888df to 2
+  Normal  ScalingReplicaSet  39s   deployment-controller  Scaled down replica set go-demo-2-api-566c5b97f5 to 0
+  Normal  ScalingReplicaSet  39s   deployment-controller  Scaled up replica set go-demo-2-api-559d6888df to 3

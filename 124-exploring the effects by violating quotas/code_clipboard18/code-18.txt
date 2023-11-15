@@ -1,0 +1,1 @@
+... Error creating: pods "go-demo-2-api-..." is forbidden: exceeded quota: dev, requested: requests.memory=200Mi, used: requests.memory=455Mi, limited: requests.memory=500Mi

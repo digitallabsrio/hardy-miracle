@@ -1,0 +1,11 @@
+{
+  "Volumes": [
+    {
+      ...
+      "VolumeType": "io1",
+      "VolumeId": "vol-0e0af4f2a7a54354d",
+      "State": "in-use",
+      ...
+   }
+  ]
+}

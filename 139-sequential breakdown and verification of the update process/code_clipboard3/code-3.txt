@@ -1,0 +1,6 @@
+NAME                 STATUS ROLES  AGE VERSION
+ip-172-20-120-133... Ready  master 13m v1.9.1
+ip-172-20-33-237...  Ready  node   1m  v1.9.1
+ip-172-20-34-249...  Ready  master 13m v1.9.1
+ip-172-20-65-28...   Ready  master 13m v1.9.1
+ip-172-20-95-101...  Ready  node   12m v1.9.1

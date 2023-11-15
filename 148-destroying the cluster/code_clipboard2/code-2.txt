@@ -1,0 +1,4 @@
+...
+Deleted kubectl config for devops23.k8s.local
+
+Deleted cluster: "devops23.k8s.local"

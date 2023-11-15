@@ -1,0 +1,4 @@
+kubectl create -f cm/alpine.yml
+#Run the below command separately after the "alpine" container is created
+kubectl exec -it alpine -- \
+    ls /etc/config

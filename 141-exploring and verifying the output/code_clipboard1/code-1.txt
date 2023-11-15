@@ -1,0 +1,1 @@
+I0225 23:04:37.479407 1 instancegroups.go:237] Stopping instance "i-06d40d6ff583fe10b", node "ip-172-20-40-167...", in group "master-us-east-2a.masters.devops23.k8s.local".

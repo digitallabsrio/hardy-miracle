@@ -1,0 +1,7 @@
+openssl x509 -req \
+    -in keys/jdoe.csr \
+    -CA /usercode/certs/client-ca.crt \
+    -CAkey /usercode/certs/client-ca.key \
+    -CAcreateserial \
+    -out keys/jdoe.crt \
+    -days 365

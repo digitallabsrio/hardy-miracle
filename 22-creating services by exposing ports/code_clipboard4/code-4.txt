@@ -1,0 +1,8 @@
+kubectl create -f go-demo-2-rs.yml
+
+kubectl get -f go-demo-2-rs.yml
+
+kubectl expose rs go-demo-2 \
+    --name=go-demo-2-svc \
+    --target-port=28017 \
+    --type=NodePort
